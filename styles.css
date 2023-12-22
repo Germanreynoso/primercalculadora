@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    background-color: black;
+    min-height: 50% !important;
+    width: 50%;
+}
+.total{
+    color: white;
+    text-align: end;
+    font-size: 100%;
+    margin: 10px;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.item{
+    height: 100px;
+    font-size: 50px;
+    border-radius: 100%;
+    margin: 1px;
+}
+.item-grey{
+    background-color: rgb(197, 190, 117);
+    border: 0;
+}
+.item-orange{
+    background-color: rgb(237, 173, 53);
+    border: 0;
+}
+.item-darkgrey{
+    background-color:rgb(198, 241, 242)
+}
